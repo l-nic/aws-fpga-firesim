@@ -42,9 +42,6 @@ file copy -force $CL_DIR/design/ila_files/firesim_ila_insert_wires.v  $TARGET_DI
 file copy -force $CL_DIR/design/cl_id_defines.vh                      $TARGET_DIR
 file copy -force $CL_DIR/design/cl_firesim.sv                         $TARGET_DIR 
 file copy -force $CL_DIR/design/cl_firesim_generated.sv               $TARGET_DIR 
-# NOTE(sibanez): copy over already encrypted SDNet netlists
-file copy -force $CL_DIR/design/sdnet_ingress.edn                     $TARGET_DIR
-file copy -force $CL_DIR/design/sdnet_egress.edn                      $TARGET_DIR
 file copy -force $CL_DIR/../common/design/cl_common_defines.vh        $TARGET_DIR 
 file copy -force $UNUSED_TEMPLATES_DIR/unused_apppf_irq_template.inc  $TARGET_DIR
 file copy -force $UNUSED_TEMPLATES_DIR/unused_cl_sda_template.inc     $TARGET_DIR
